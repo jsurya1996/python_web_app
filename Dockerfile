@@ -5,7 +5,7 @@ FROM python:3.8-alpine
 WORKDIR  /app 
 
 #COPY /requirements.txt .
-COPY requirements.txt .
+COPY Requirements.txt .
 
 # Set the working directory to /app
 #WORKDIR /app
